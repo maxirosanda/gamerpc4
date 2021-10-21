@@ -1,8 +1,9 @@
-import { ADD_MIPC, LOAD_MISPCS,DELETE_MISPCS } from '../actions/misPcs.actions';
+import { ADD_MIPC, LOAD_MISPCS,DELETE_MISPCS ,SELECTEDMIPC } from '../actions/misPcs.actions';
 import MiPc from '../../models/MiPc';
 
 const initialState = {
-    misPcs: []
+    misPcs: [],
+    selectedId: null,
 }
 
 const MisPcsReducer = (state = initialState, action) => {
@@ -15,7 +16,7 @@ const MisPcsReducer = (state = initialState, action) => {
                 action.payload.description,
                 action.payload.userId,
                 action.payload.lat,
-                action.payload.lgn
+                action.payload.lng
             );
             return {
                 ...state,
@@ -31,9 +32,14 @@ const MisPcsReducer = (state = initialState, action) => {
                     item.description,
                     item.userId,
                     item.lat,
-                    item.lgn
+                    item.lng
                 ))
             }
+            case  SELECTEDMIPC :
+                return{
+                    ...state,
+                selectedId: action.id
+                }
         case DELETE_MISPCS :
             return {
                 ...state,

@@ -1,6 +1,6 @@
 import * as SQLite from 'expo-sqlite';
 
-const db = SQLite.openDatabase('mispcs5.db');
+const db = SQLite.openDatabase('mispcs10.db');
 
 export const init = () => {
   return new Promise((resolve, reject) => {
@@ -11,8 +11,8 @@ export const init = () => {
           image TEXT NOT NULL,
           description TEXT NOT NULL,
           userId TEXT NOT NULL,
-          lat TEXT NOT NULL,
-          lgn TEXT NOT NULL
+          lat FLOAT NOT NULL,
+          lng FLOAT NOT NULL
         )`,
         [],
         () => resolve(),
@@ -28,13 +28,14 @@ export const insertMiPc = (
   description,
   userId,
   lat,
-  lgn
+  lng
 ) => {
+
   return new Promise((resolve, reject) => {
     db.transaction((tx) => {
       tx.executeSql(
-        'INSERT INTO mispcs (title, image, description,userId,lat,lgn) VALUES (?,?,?,?,?,?)',
-        [title, image,description,userId,lat,lgn],
+        'INSERT INTO mispcs (title, image, description,userId,lat,lng) VALUES (?,?,?,?,?,?)',
+        [title, image,description,userId,lat,lng],
         (_, result) => resolve(result),
         (_, error) => reject(error),
       )

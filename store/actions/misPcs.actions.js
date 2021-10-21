@@ -4,8 +4,14 @@ import { insertMiPc, fetchMispcs,deleteAddress } from '../../db';
 export const ADD_MIPC = 'ADD_MIPC';
 export const LOAD_MISPCS = 'LOAD_MISPCS';
 export const DELETE_MISPCS = 'DELETE_MISPCS'
+export const SELECTEDMIPC = "SELECTED_MIPC"
 
-export const addmiPc = (title, image,description,userId,lat,lgn) => {
+export const selectedMipc = (id) => ({
+    type: SELECTEDMIPC,
+    id,
+  });
+
+export const addmiPc = (title, image,description,userId,lat,lng) => {
     return async dispatch => {
         const fileName = image.split('/').pop()
         const Path = FileSystem.documentDirectory + fileName;
@@ -22,7 +28,7 @@ export const addmiPc = (title, image,description,userId,lat,lgn) => {
                 description,
                 userId,
                 lat,
-                lgn
+                lng
             );
 
             dispatch({
@@ -33,8 +39,8 @@ export const addmiPc = (title, image,description,userId,lat,lgn) => {
                     image: Path,
                     description,
                     userId:userId,
-                    latitud:lat,
-                    longitud:lgn
+                    lat:lat,
+                    lng:lng
                     
                 }
                

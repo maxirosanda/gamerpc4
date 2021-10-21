@@ -9,9 +9,10 @@ const PlaceItem = ({id,title, image,description,onSelect,handleDelete }) => {
     <View style={styles.placeItem}>
 <View style={styles.info}>
       <Image style={styles.rectangulo} source={{ uri: image }} />
-      
+        <View style={styles.conteinerText} >
         <Text style={styles.title}>{title}</Text>
-        <Text style={styles.address}>{description}</Text>
+        <Text style={styles.description}>{description}</Text>
+        </View>
       </View>
       
       <View style={styles.contenedorBotones}>
@@ -31,8 +32,7 @@ const styles = StyleSheet.create({
     borderBottomColor: '#ccc',
     borderBottomWidth: 1,
     paddingVertical: 16,
-    paddingHorizontal: 30,
-    alignItems: 'center',
+    alignItems:"flex-start",
   },
   touch:{
     flexDirection:"row",
@@ -53,14 +53,19 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'flex-start',
   },
+  conteinerText:{
+    flex:1
+  },
   title: {
     color: COLORS.primary,
     fontSize: 18,
     marginBottom: 6,
+    textAlign:"center"
   },
-  address: {
+  description: {
     color: '#777',
     fontSize: 16,
+    textAlign:"center"
   },
   contenedorBotones:{
     flexDirection:"row"

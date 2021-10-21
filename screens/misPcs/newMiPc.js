@@ -33,13 +33,12 @@ const NewMiPc = ({ navigation }) => {
     return (
         <ScrollView>
             <View style={styles.container}>
-                <Text style={styles.label}>Titulo</Text>
                 <TextInput
                     style={styles.input}
                     value={title}
                     onChangeText={handleTitleChange}
+                    placeholder="Titulo"
                 />
-                <Text style={styles.label}>Descripcion</Text>
                 <TextInput
                     style={styles.input}
                     value={description}
@@ -65,17 +64,16 @@ const styles = StyleSheet.create({
         flex: 1,
         margin: 30,
     },
-    label: {
-        fontSize: 18,
-        marginBottom: 16,
-    },
+
     input: {
-        borderBottomColor: '#ccc',
-        borderBottomWidth: 1,
-        marginBottom: 16,
         paddingHorizontal: 2,
-        paddingVertical: 4,
-    },
+        paddingVertical: 5,
+        borderColor: '#ccc',
+        borderWidth: 1,
+        borderRadius:5,
+        marginVertical:25
+        
+      },
 })
 
 export default NewMiPc 
