@@ -1,0 +1,297 @@
+{
+  "games" : [ {
+    "description" : "kjfgshgsghasgjlhaghaighjaio",
+    "id" : "bd7gcbea-c1g1-46c2-aed5-3ag53abbgba",
+    "title" : " Fortnite",
+    "url" : "https://i.ibb.co/m4GDJhg/fortnite.jpg"
+  }, {
+    "description" : "kjfgshgsghasgjlhaghaighjaio",
+    "id" : "bd7gcbea-c1g1-43c2-aed5-3ag53abbgba",
+    "title" : " GTA V",
+    "url" : "https://i.ibb.co/SmWm0VF/gta-v.jpg"
+  }, {
+    "description" : "kjfgshgsghasgjlhaghaighjaio",
+    "id" : "bd7gcbea-c8qq-42c2-aed5-3ag53abbgba",
+    "title" : " Counter",
+    "url" : "https://i.ibb.co/BrGZczd/Half-Life-2-cover.jpg"
+  }, {
+    "description" : "kjfgshgsghasgjlhaghaighjaio",
+    "id" : "bd7gcbea-c1g1-46c2-aed5-3ag53abbgba",
+    "title" : "Daytona USA",
+    "url" : "https://i.ibb.co/vh16GzY/daytona.jpg"
+  }, {
+    "description" : "fdsfsdf",
+    "id" : "bd7gcbea-c1g1-8765-aed5-3ag53abbgba",
+    "title" : "Medium",
+    "url" : "https://i.ibb.co/X4cH4VL/the-mediun.jpg"
+  }, {
+    "description" : "fsdfsf",
+    "id" : "lkuhc458-c1g1-8765-aed5-3ag53abbgba",
+    "title" : "Portal 2",
+    "url" : "https://i.ibb.co/Rb9X4yx/portal-2.jpg"
+  }, {
+    "description" : "dsfsdgs",
+    "id" : "lffhc458-c1g1-8765-aed5-3ag53abbgba",
+    "title" : "Mass Effect 2",
+    "url" : "https://i.ibb.co/BBngGXG/mass-effect-2.jpg"
+  }, {
+    "description" : "hdjhrejqw",
+    "id" : "lkuhc458-c1g1-8765-aed5-3ag53abb1qw",
+    "title" : "LOL",
+    "url" : "https://i.ibb.co/1JmdGgq/lol.jpg"
+  }, {
+    "description" : "gsgafs",
+    "id" : "lkuhc778-c1g1-8765-aed5-3ag53abb1qw",
+    "title" : "Civilization",
+    "url" : "https://i.ibb.co/D4LzztF/civilization.jpg"
+  } ],
+  "products" : [ {
+    "components" : [ {
+      "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+      "id" : "bd7QQbea-c1b1-46Ec2-21d5-3ad53aDD28ba",
+      "name" : "Procesador intel Pentium  Gold",
+      "url" : "https://i.ibb.co/CQcgNgN/procesador2.jpg"
+    }, {
+      "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+      "id" : "bd7acbea-c1b1-4QQQ2-23d5-3ad53abb28ba",
+      "name" : "Motheboard xdfg-12",
+      "url" : "https://i.ibb.co/VTc4nsJ/motherboard1.jpg"
+    }, {
+      "description" : "Aumento de la velocidad del reloj con Intel® XMP 2.0\"",
+      "id" : "bd7acQQQ-c1b1-46Ec2-24d5-34d53abb28ba",
+      "name" : "MEMORIA ADATA DDR4 8GB 4133MHZ XPG RGB D60 SPECTRIx",
+      "url" : "https://i.ibb.co/S0D77QV/D-NQ-NP-629316-MLA32170216691-092019-O.jpg"
+    }, {
+      "description" : "GeForce ® GTX 1650 VENTUS XS 4G OC",
+      "id" : "bd7acbea-c1b1-4QQc2-25d5-3ad53abb28ba",
+      "name" : "PLACA DE VIDEO GEFORCE GTX 1650 VENTUS XS 4GB OC MSI",
+      "url" : "https://i.ibb.co/5xNnM6X/placavideo2.jpg"
+    }, {
+      "description" : "SSD 480GB  ",
+      "id" : "bd7acbea-c1b1-46Ec2-26d5-3ad53abb2QQa",
+      "name" : "DISCO SOLIDO SSD 2.5 CRUCIAL BX500 480GB",
+      "url" : "https://i.ibb.co/SJjMHpP/disco.jpg"
+    } ],
+    "description" : "Diseña especialmente para fortnite",
+    "id" : "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    "price" : 150000,
+    "title" : "Remoendada Intel para Fortnite",
+    "url" : "https://i.ibb.co/2FCsVK3/gabinete1.jpg"
+  }, {
+    "components" : [ {
+      "description" : "Frec Max Soportada DDR4-3200MHZ-Socket compatible: FCLGA1200",
+      "id" : "bd7acbea-c1b1-46WWW-22d5-3ad53a6b28ba",
+      "name" : "PROCESADOR INTEL 1200 CORE I7 11700",
+      "url" : "https://i.ibb.co/CQcgNgN/procesador1.jpg"
+    }, {
+      "description" : "Memoria KINGSTON 8 gb",
+      "id" : "bd7WWbea-c1b1-46Ec2-22d5-3ad53abb28ba",
+      "name" : "MEM DDR3 KINGSTON 8GB 1600MHZ",
+      "url" : "https://i.ibb.co/S0D77QV/D-NQ-NP-629316-MLA32170216691-092019-O.jpg"
+    }, {
+      "description" : "ATX 30.5cm x 24.4cm",
+      "id" : "bd7acbea-c1b1-46Ec2-2Wd5-3ad53abb28ba",
+      "name" : "MOTHERBOARD ASUS ROG STRIX Z590-E GAMING Wifi",
+      "url" : "https://i.ibb.co/LkjvVRH/motherboard2.jpg"
+    }, {
+      "description" : "323 x 140 x 56 mm",
+      "id" : "bd7acbea-c1b1-46Ec2-22d5-3ad5a3bb28ba",
+      "name" : "PLACA DE VIDEO GEFORCE RTX 3070 GAMING Z TRIO 8G LHR MSI",
+      "url" : "https://i.ibb.co/bPJLDD3/placavideo1.jpg"
+    }, {
+      "description" : "SSD 1TB 2.5 ",
+      "id" : "bd7acbea-c1b1-46Ec2-22d5-3ad53abW28ba",
+      "name" : "DISCO SOLIDO SSD 2.5 KINGSTON A400 960GB",
+      "url" : "https://i.ibb.co/SJjMHpP/disco.jpg"
+    } ],
+    "description" : "Diseña especialmente para fortnite",
+    "id" : "bd7acbea-c1e31-46c2-aed5-3ad53abb28ba",
+    "juegosYprogramas" : [ "Fortnite", "GTA V" ],
+    "price" : 250000,
+    "title" : "Remoendada Intel para Fortnite",
+    "url" : "https://i.ibb.co/2FCsVK3/gabinete1.jpg"
+  }, {
+    "components" : {
+      "0" : {
+        "description" : "Frec Max Soportada DDR4-3200MHz-Socket compatible: AM4",
+        "id" : "bd7a00ea-c1b1-4WEc2-22d5-3ad53abb28ba",
+        "name" : "PROCESADOR AMD AM4 Ryzen 9 5900X",
+        "url" : "https://i.ibb.co/hVT6S0V/procesador1.jpg"
+      },
+      "1" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c101-4XEc2-22d5-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "2" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c1b1-4V0c2-22d5-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "3" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c1b1-4NEc2-2205-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "4" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c1b1-41Ec2-22Q5-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "url" : "https://i.ibb.co/hVT6S0V/procesador1.jpg"
+    },
+    "description" : "Diseña especialmente para fortnite",
+    "id" : "bd7acbea-c3b1-46c2-aed5-3ad53abb28ba",
+    "price" : 350000,
+    "title" : "Remoendada Intel para Fortnite",
+    "url" : "https://i.ibb.co/2FCsVK3/gabinete1.jpg"
+  },
+  {
+    "components" : [ {
+      "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+      "id" : "bd7wqea-c1b1-46Ec2-21d5-3ad53aDD28ba",
+      "name" : "Procesador intel Pentium  Gold",
+      "url" : "https://i.ibb.co/CQcgNgN/procesador2.jpg"
+    }, {
+      "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+      "id" : "bd7acbea-c1b1-4QQQ2-23d5-3ad53abb28ba",
+      "name" : "Motheboard xdfg-12",
+      "url" : "https://i.ibb.co/VTc4nsJ/motherboard1.jpg"
+    }, {
+      "description" : "Aumento de la velocidad del reloj con Intel® XMP 2.0\"",
+      "id" : "bd7acQQQ-c1b1-46Ec2-24d5-34d53abb28ba",
+      "name" : "MEMORIA ADATA DDR4 8GB 4133MHZ XPG RGB D60 SPECTRIx",
+      "url" : "https://i.ibb.co/S0D77QV/D-NQ-NP-629316-MLA32170216691-092019-O.jpg"
+    }, {
+      "description" : "GeForce ® GTX 1650 VENTUS XS 4G OC",
+      "id" : "bd7acbea-c1b1-4QQc2-25d5-3ad53abb28ba",
+      "name" : "PLACA DE VIDEO GEFORCE GTX 1650 VENTUS XS 4GB OC MSI",
+      "url" : "https://i.ibb.co/5xNnM6X/placavideo2.jpg"
+    }, {
+      "description" : "SSD 480GB  ",
+      "id" : "bd7acbea-c1b1-46Ec2-26d5-3ad53abb2QQa",
+      "name" : "DISCO SOLIDO SSD 2.5 CRUCIAL BX500 480GB",
+      "url" : "https://i.ibb.co/SJjMHpP/disco.jpg"
+    } ],
+    "description" : "Diseña especialmente para fortnite",
+    "id" : "bd7allea-c1b1-46c2-aed5-3ad53abb28ba",
+    "price" : 150000,
+    "title" : "Remoendada Intel para Fortnite",
+    "url" : "https://i.ibb.co/2FCsVK3/gabinete1.jpg"
+  }, {
+    "components" : [ {
+      "description" : "Frec Max Soportada DDR4-3200MHZ-Socket compatible: FCLGA1200",
+      "id" : "bd7acbea-21b1-46WWW-22d2-3ad53a6b28ba",
+      "name" : "PROCESADOR INTEL 1200 CORE I7 11700",
+      "url" : "https://i.ibb.co/CQcgNgN/procesador1.jpg"
+    }, {
+      "description" : "Memoria KINGSTON 8 gb",
+      "id" : "bd7WWbea-c1b1-46Ec2-22d5-3ad53abb28ba",
+      "name" : "MEM DDR3 KINGSTON 8GB 1600MHZ",
+      "url" : "https://i.ibb.co/S0D77QV/D-NQ-NP-629316-MLA32170216691-092019-O.jpg"
+    }, {
+      "description" : "ATX 30.5cm x 24.4cm",
+      "id" : "bd7acbea-c1b1-46Ec2-2Wd5-3ad53abb28ba",
+      "name" : "MOTHERBOARD ASUS ROG STRIX Z590-E GAMING Wifi",
+      "url" : "https://i.ibb.co/LkjvVRH/motherboard2.jpg"
+    }, {
+      "description" : "323 x 140 x 56 mm",
+      "id" : "bd7acbea-c1b1-46Ec2-22d5-3ad5a3bb28ba",
+      "name" : "PLACA DE VIDEO GEFORCE RTX 3070 GAMING Z TRIO 8G LHR MSI",
+      "url" : "https://i.ibb.co/bPJLDD3/placavideo1.jpg"
+    }, {
+      "description" : "SSD 1TB 2.5 ",
+      "id" : "bd7acbea-c1b1-46Ec2-22d5-3ad53abW28ba",
+      "name" : "DISCO SOLIDO SSD 2.5 KINGSTON A400 960GB",
+      "url" : "https://i.ibb.co/SJjMHpP/disco.jpg"
+    } ],
+    "description" : "Diseña especialmente para fortnite",
+    "id" : "bd7acbea-cce31-46c2-aed5-3cd53abb28ba",
+    "juegosYprogramas" : [ "Fortnite", "GTA V" ],
+    "price" : 250000,
+    "title" : "Remoendada Intel para Fortnite",
+    "url" : "https://i.ibb.co/2FCsVK3/gabinete1.jpg"
+  }, {
+    "components" : {
+      "0" : {
+        "description" : "Frec Max Soportada DDR4-3200MHz-Socket compatible: AM4",
+        "id" : "bd7a00ea-c1b1-4WEc2-22d5-3ad53abb28ba",
+        "name" : "PROCESADOR AMD AM4 Ryzen 9 5900X",
+        "url" : "https://i.ibb.co/hVT6S0V/procesador1.jpg"
+      },
+      "1" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c101-4XEc2-22d5-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "2" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c1b1-4V0c2-22d5-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "3" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-c1b1-4NEc2-2205-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "4" : {
+        "description" : "Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W.",
+        "id" : "bd7acbea-s1b1-41Ec2-22Q5-3ad53abb28ba",
+        "name" : "Procesador intel Pentium  Gold"
+      },
+      "url" : "https://i.ibb.co/hVT6S0V/procesador1.jpg"
+    },
+    "description" : "Diseña especialmente para fortnite",
+    "id" : "bd7acbea-c3b1-46c2-aed5-3ad53abb28ba",
+    "price" : 350000,
+    "title" : "Remoendada Intel para Fortnite",
+    "url" : "https://i.ibb.co/2FCsVK3/gabinete1.jpg"
+  } ],
+  "programs" : [ {
+    "description" : "kjfgshgsghasgjlhaghaighjaio",
+    "id" : "bjgfdbea-c1g1-46c2-aed5-3ag53abbgbn",
+    "title" : "Office 2021",
+    "url" : "https://i.ibb.co/P4fz6PJ/microsoft-office-1.png"
+  }, {
+    " url" : "https://i.ibb.co/Hg6QWQW/illustrator.jpg",
+    "description" : "kjfgshgsghasgjlhaghaighjaio",
+    "id" : "bjgfdbea-c2g1-46c2-aed5-3ag53abbgbn",
+    "title" : "Ilustrator 2021",
+    "url" : "https://i.ibb.co/Hg6QWQW/illustrator.jpg"
+  }, {
+    "description" : "dgsgasg",
+    "id" : "bjgfdbea-c2g1-46c2-aed5-3ag53accgbn",
+    "title" : "Tango Gestion",
+    "url" : "https://i.ibb.co/RgdBTmn/tango.jpg"
+  }, {
+    "description" : "dggsga",
+    "id" : "bjgfdbea-c2g1-46c2-aed5-3ag53abbgxx",
+    "title" : "Premiere",
+    "url" : "https://i.ibb.co/H4s8YNt/premiere.jpg"
+  }, {
+    "description" : "gsgagsa",
+    "id" : "yzgfdbea-c2g1-46c2-aed5-3ag5gb3abbn",
+    "title" : "Indesing",
+    "url" : "https://i.ibb.co/FKqSyv1/indesing.jpg"
+  }, {
+    "description" : "dgs",
+    "id" : "7jgfdbea-c2g1-46c2-aed5-3ag53abbgbn",
+    "title" : "Bootstrap Studio",
+    "url" : "https://i.ibb.co/RY6Dwbm/Bootstrap-Studio-Logo.png"
+  }, {
+    "description" : "dfsfs",
+    "id" : "hjgfdbea-c2g1-46c2-aed5-3ag53abbgbn",
+    "title" : "Acronis",
+    "url" : "https://i.ibb.co/G9XXs4x/acronis.png"
+  }, {
+    "description" : "dsdgsgs",
+    "id" : "amlfdbea-c2g1-46c2-aed5-3ag53abbgbn",
+    "title" : "After Effect",
+    "url" : "https://i.ibb.co/Nt6pdXp/Adobe-After-Effects-1.jpg"
+  }, {
+    "description" : "fsdfsf",
+    "id" : "fdsgd",
+    "title" : "Dragon ",
+    "url" : "https://i.ibb.co/D7bHytH/Dragon-Naturally-Speaking-Speech-to-text-software-e1520946913264.jpg"
+  } ]
+}

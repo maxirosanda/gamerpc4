@@ -1,0 +1,95 @@
+{"games": [
+    {
+      "id":"bd7gcbea-c1g1-46c2-aed5-3ag53abbgba",
+      "title":" Fortnite",
+      "url":"jghkdhgkldsgjhligj",
+      "description":"kjfgshgsghasgjlhaghaighjaio"
+    },
+    {
+      "id":"bd7gcbea-c1g1-43c2-aed5-3ag53abbgba",
+      "title":" GTA V",
+      "url":"jghkdhgkldsgjhligj",
+      "description":"kjfgshgsghasgjlhaghaighjaio"
+    },
+    {
+      "id":"bd7gcbea-c8qq-42c2-aed5-3ag53abbgba",
+      "title":" Counter",
+      "url":"jghkdhgkldsgjhligj",
+      "description":"kjfgshgsghasgjlhaghaighjaio"
+    },
+    {
+      "id":"bd7gcbea-c1g1-46c2-aed5-3ag53abbgba",
+      "title":" Fifa 2021",
+      "url":"jghkdhgkldsgjhligj",
+      "description":"kjfgshgsghasgjlhaghaighjaio"
+    }
+    
+  ],
+  "programs": [
+    {
+      "id": "bjgfdbea-c1g1-46c2-aed5-3ag53abbgbn",
+      "title": "Office 2021",
+     " url":"jghkdhgkldsgjhligj",
+      "description":"kjfgshgsghasgjlhaghaighjaio"
+    },
+    {
+      "id": "bjgfdbea-c2g1-46c2-aed5-3ag53abbgbn",
+      "title": "Photoshop 2021",
+     " url":"jghkdhgkldsgjhligj",
+      "description":"kjfgshgsghasgjlhaghaighjaio"
+    }
+
+  ],
+  "products": [
+    {
+      "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+      "title": "Remoendada Intel para Fortnite",
+      "price": 150000,
+      "description":"Diseña especialmente para fortnite",
+      "recommended":true,
+      "components":[
+        {"id":"bd7QQbea-c1b1-46Ec2-21d5-3ad53aDD28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-4QQQ2-23d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acQQQ-c1b1-46Ec2-24d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-4QQc2-25d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-46Ec2-26d5-3ad53abb2QQa","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."}
+    ],
+    "games": ["bd7gcbea-c1g1-46c2-aed5-3ag53abbgba","bd7gcbea-c1g1-43c2-aed5-3ag53abbgba","bd7gcbea-c8qq-42c2-aed5-3ag53abbgba","bd7gcbea-c1g1-46c2-aed5-3ag53abbgba"],
+    "programs": ["bjgfdbea-c1g1-46c2-aed5-3ag53abbgbn","bjgfdbea-c2g1-46c2-aed5-3ag53abbgbn"]
+    },
+    {
+      "id": "bd7acbea-c1e31-46c2-aed5-3ad53abb28ba",
+      "title": "Remoendada Intel para Fortnite",
+      "price": 250000,
+      "recommended":true,
+      "description":"Diseña especialmente para fortnite",
+      "components":[
+        {"id":"bd7acbea-c1b1-46WWW-22d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7WWbea-c1b1-46Ec2-22d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-46Ec2-2Wd5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-46Ec2-22d5-3ad5a3bb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-46Ec2-22d5-3ad53abW28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."}
+    ],
+    "games": ["bd7gcbea-c1g1-46c2-aed5-3ag53abbgba","bd7gcbea-c1g1-43c2-aed5-3ag53abbgba","bd7gcbea-c8qq-42c2-aed5-3ag53abbgba","bd7gcbea-c1g1-46c2-aed5-3ag53abbgba"],
+    "programs": ["bjgfdbea-c1g1-46c2-aed5-3ag53abbgbn","bjgfdbea-c2g1-46c2-aed5-3ag53abbgbn"]
+
+    },
+    {
+      "id": "bd7acbea-c3b1-46c2-aed5-3ad53abb28ba",
+      "title": "Remoendada Intel para Fortnite",
+      "price": 350000,
+      "description":"Diseña especialmente para fortnite",
+    "components":[
+        {"id":"bd7a00ea-c1b1-4WEc2-22d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c101-4XEc2-22d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-4V0c2-22d5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-4NEc2-2205-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."},
+        {"id":"bd7acbea-c1b1-41Ec2-22Q5-3ad53abb28ba","name":"Procesador intel Pentium  Gold","description":"Memoria caché de 4MB, rápida y volátil/Procesador gráfico Intel UHD Graphics 610 /Soporta memoria RAM DDR4/ Su potencia es de 54W."}
+    ],
+    "games": ["bd7gcbea-c1g1-46c2-aed5-3ag53abbgba","bd7gcbea-c1g1-43c2-aed5-3ag53abbgba","bd7gcbea-c8qq-42c2-aed5-3ag53abbgba","bd7gcbea-c1g1-46c2-aed5-3ag53abbgba"],
+    "programs": ["bjgfdbea-c1g1-46c2-aed5-3ag53abbgbn","bjgfdbea-c2g1-46c2-aed5-3ag53abbgbn"]
+
+    }
+  
+  ]
+}
