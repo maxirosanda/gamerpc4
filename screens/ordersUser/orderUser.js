@@ -2,13 +2,14 @@ import React,{useEffect} from 'react'
 import { View,Text,StyleSheet, TouchableOpacity,FlatList} from 'react-native'
 import CardBig from '../../components/cardBig';
 import { useSelector,useDispatch} from 'react-redux';
-import { getOrderUser } from '../../store/actions/orders.action';
+import { getOrdersUser } from '../../store/actions/orders.action';
 import ButtonLong from '../../components/buttonLong';
 import { deleteOrder } from '../../store/actions/orders.action';
 import { COLORS } from '../../constants/colors';
 
 const OrderUser = ({navigation})=>{
     const dispatch = useDispatch();
+    const userId = useSelector(state => state.auth.userId)
     const orderid = useSelector(state => state.orders.selectedId)
     const orders = useSelector(state => state.orders.list)
     const order = orders.find(item => item._id === orderid);
@@ -16,6 +17,8 @@ const OrderUser = ({navigation})=>{
     const handleDeleteOrder = (_id) => {
         dispatch(deleteOrder(_id))
         navigation.navigate('OrdersUser');
+        dispatch(getOrdersUser(userId))
+       
       }
 
     

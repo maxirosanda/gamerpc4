@@ -18,7 +18,7 @@ const MisPcs = ({ navigation }) => {
 
     useEffect(() => {
         dispatch(loadMisPcs(userId));
-    }, [ mispcs]);
+    }, [ ]);
 
 
     const handleSelectedMiPC = (id) => {

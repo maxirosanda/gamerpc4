@@ -6,7 +6,6 @@ import { COLORS } from '../../constants/colors';
 
 
 const Detalle = ({ navigation }) => {
-    const dispatch = useDispatch();
     const  mispcsId = useSelector(state => state.mispcs.selectedId)
     const mispcs = useSelector(state => state.mispcs.misPcs);
     const mipc = mispcs.find(item => item.id === mispcsId);

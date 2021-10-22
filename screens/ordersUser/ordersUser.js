@@ -12,7 +12,7 @@ const OrdersUser = ({ navigation, route })=>{
     
     useEffect(()=>{
         dispatch(getOrdersUser(userId))
-    },[orders])
+    },[])
 
     const handleSelectedOrder = (_id) => {
         dispatch(selectedOrder(_id))

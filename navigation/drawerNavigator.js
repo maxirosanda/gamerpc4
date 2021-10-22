@@ -6,12 +6,13 @@ import MisPcsNavigator from './misPcsNavigation';
 
 const Drawer = createDrawerNavigator();
 
-const DrawerNavigator = () => {
 
+const DrawerNavigator = () => {
+ 
     return (
-      <Drawer.Navigator initialRouteName="Home" screenOptions={{headerStyle: {backgroundColor:'#000000'},headerTintColor:'#ffffff' }}  >
-        <Drawer.Screen name="Home" component={CrearPc} />
-        <Drawer.Screen name="Compras" component={ OrdersNavigator} />
+      <Drawer.Navigator initialRouteName="HomeDrawer" screenOptions={{headerStyle: {backgroundColor:'#000000'},headerTintColor:'#ffffff' }}  >
+        <Drawer.Screen name="HomeDrawer" component={CrearPc} options={{title: "Home"}} />
+        <Drawer.Screen name="Compras" component={ OrdersNavigator}  />
         <Drawer.Screen name="Mi Pc" component={MisPcsNavigator} />
       </Drawer.Navigator>
 )

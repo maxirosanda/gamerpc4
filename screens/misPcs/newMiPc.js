@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch,useSelector } from 'react-redux';
 import { View, Text, Button, TextInput, ScrollView, StyleSheet } from 'react-native'
 import { COLORS } from '../../constants/colors'
-import { addmiPc } from '../../store/actions/misPcs.actions';
+import { addmiPc,loadMisPcs } from '../../store/actions/misPcs.actions';
 import ImageSelector from '../../components/ImageSelector';
 import LocationSelector from '../../components/LocationSelector';
 import ButtonLong from '../../components/buttonLong'
@@ -19,6 +19,7 @@ const NewMiPc = ({ navigation }) => {
     const handleDescriptionChange = text => setDescription(text);
     const handleSave = () => {
         dispatch(addmiPc(title, image,description, userId,location.lat,location.lng));
+        dispatch(loadMisPcs(userId));
        navigation.navigate('Mispcs');
     }
 
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
     },
 
     input: {
-        paddingHorizontal: 2,
+        paddingHorizontal: 10,
         paddingVertical: 5,
         borderColor: '#ccc',
         borderWidth: 1,

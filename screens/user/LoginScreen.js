@@ -1,5 +1,5 @@
 import React, { useCallback, useReducer } from 'react';
-import { Alert, StyleSheet,View } from 'react-native';
+import { Alert, StyleSheet,View ,StatusBar} from 'react-native';
 import { Button } from 'react-native-elements';
 import { useDispatch } from 'react-redux';
 import AuthScreenWrapper from '../../components/AuthScreenWrapper';
@@ -51,6 +51,10 @@ const LoginScreen = () => {
       buttonText="Ingresar"
       buttonPath="Register"
     >
+             <StatusBar
+      backgroundColor= "#000000"
+      barStyle="light-content"
+    />
       <Input
         id="email"
         label="Email"

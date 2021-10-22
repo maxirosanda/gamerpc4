@@ -7,18 +7,30 @@ const CardOrders = ({item ,handleSelectedOrder,_id})=>{
     return(
         <TouchableOpacity style={styles.card} onPress={()=>{handleSelectedOrder(_id)}}>
             <Rectangulo url={item.url}/>
-            <Text style={styles.titulo}>{item.title}</Text>
+            <View style={styles.tituloconteinertext}>
+            <Text style={styles.titulo}>{item.title}</Text>    
+            <Text style={styles.text} >Vendedor: {item.nombreVendedor}</Text>
+            <Text style={styles.text}> Tel: {item.telVendedor}</Text>
             <Text style={styles.mas}>Pago</Text> 
+            </View>
         </TouchableOpacity>
         
     )
 }
 
 const styles= StyleSheet.create({
+    conteinertext:{
+        width:"60%",
+        padding:15
+    },
     titulo:{
         fontWeight:"bold",
-        width:"40%",
-        textAlign:"center"
+        textAlign:"center",
+        padding:2
+
+    },
+    text:{
+        padding:2
     },
     card:{
         height:120,
@@ -31,7 +43,10 @@ const styles= StyleSheet.create({
     },
     mas:{
         fontSize:16,
-        margin:15
+        padding:6,
+        textAlign:"right",
+        fontWeight:"bold"
+
     }
 })
 

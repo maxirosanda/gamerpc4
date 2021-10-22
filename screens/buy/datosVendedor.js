@@ -6,7 +6,7 @@ import ButtonLong from '../../components/buttonLong';
 import {COLORS} from '../../constants/colors'
 import ModalBuy from '../../components/modalBuy';
 import { useDispatch} from 'react-redux';
-import { confirOrder } from '../../store/actions/orders.action';
+import { confirOrder ,getOrdersUser} from '../../store/actions/orders.action';
 import ButtonSecondary from '../../components/ButtonSecondary';
 
 const DatosVendedor = ({ navigation, route })=>{
@@ -22,6 +22,7 @@ const DatosVendedor = ({ navigation, route })=>{
         setModalVisible(true)
         setButtonVisible(true)
         dispatch(confirOrder(product,userId));
+        dispatch(getOrdersUser(userId))
     
     }
 

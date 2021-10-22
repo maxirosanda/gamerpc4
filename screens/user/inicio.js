@@ -1,5 +1,5 @@
 import React from 'react'
-import { View,Text,StyleSheet,TextInput,FlatList,TouchableOpacity} from 'react-native'
+import { View,Text,StyleSheet,TextInput,FlatList,TouchableOpacity,StatusBar} from 'react-native'
 import ButtonLong from '../../components/buttonLong'
 import { COLORS } from '../../constants/colors';
 
@@ -12,8 +12,12 @@ const Inicio = ({ navigation, route })=>{
         navigation.navigate('Register');
       }
     return(
+ 
         <View style={styles.conteiner}>
-          
+               <StatusBar
+      backgroundColor= {COLORS.primary}
+      barStyle="light-content"
+    />
           <ButtonLong text={"Inicio Sesión"} handleSelected={handleSelectedLogin} color={COLORS.accent}></ButtonLong>
           <ButtonLong text={"Registrarme"} handleSelected={handleSelectedRegister} color={COLORS.accent}></ButtonLong>
   
