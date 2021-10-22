@@ -7,6 +7,7 @@ import {COLORS} from '../../constants/colors'
 import ModalBuy from '../../components/modalBuy';
 import { useDispatch} from 'react-redux';
 import { confirOrder } from '../../store/actions/orders.action';
+import ButtonSecondary from '../../components/ButtonSecondary';
 
 const DatosVendedor = ({ navigation, route })=>{
     const products = useSelector(state => state.products.list)
@@ -45,8 +46,8 @@ const DatosVendedor = ({ navigation, route })=>{
             </View>
         
         </ScrollView>
-       
         <ButtonLong text={"COMPRAR"} handleSelected={handleCompra} buttonVisible={buttonVisible} color={COLORS.primary}></ButtonLong>
+        <ButtonSecondary text={"Volver al Home"} handleSelected={()=>{ navigation.navigate('VolverHome')}} color={COLORS.primary}></ButtonSecondary>
          </View>
     )
 }
@@ -71,13 +72,13 @@ const styles= StyleSheet.create({
        text:{
            fontSize:14,
            fontWeight:"bold",
-           padding:30
+           padding:10
        },
        text2:{
         fontSize:14,
         fontWeight:"bold",
         paddingHorizontal:20,
-        paddingVertical:5,
+        paddingVertical:3,
         textAlign:"center"
     }
 })

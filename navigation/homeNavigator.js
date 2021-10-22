@@ -11,11 +11,11 @@ const Stack = createNativeStackNavigator()
 const HomeNavigator = () => (
 
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="homeHome" component={DrawerNavigator}/>
+        <Stack.Screen name="Home" component={DrawerNavigator}/>
         <Stack.Screen name="RecommendedHome" component={RecomendadosNavigator} />
         <Stack.Screen name="GamesHome" component={GamesNavigator} />
         <Stack.Screen name="ProgramsHome" component={ProgramsNavigator} />
-        <Stack.Screen name="BuildPcHome" component={BuildPcNavigator} />
+        <Stack.Screen name="BuildPcHome" component={BuildPcNavigator}  />
     </Stack.Navigator>
 
 );

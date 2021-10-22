@@ -43,6 +43,7 @@ const NewMiPc = ({ navigation }) => {
                     style={styles.input}
                     value={description}
                     onChangeText={handleDescriptionChange}
+                    placeholder="Descripcion"
                 />
 
                 <ImageSelector onImage={handlePickImage} />

@@ -29,7 +29,7 @@ const Input = props => {
     touched: false,
   });
 
-  const { onInputChange, id } = props;
+  const { onInputChange, id,label } = props;
 
   useEffect(() => {
     onInputChange(id, inputState.value, inputState.isValid);
@@ -60,6 +60,7 @@ const Input = props => {
         value={inputState.value}
         onChangeText={handleChangeText}
         onBlur={handleBlur}
+        placeholder={label}
       />
       {!inputState.isValid && inputState.touched && (
         <View>
@@ -75,7 +76,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   input: {
-    paddingHorizontal: 2,
+    paddingHorizontal: 10,
     paddingVertical: 5,
     borderColor: '#ccc',
     borderWidth: 1,

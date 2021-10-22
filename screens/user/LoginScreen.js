@@ -60,6 +60,7 @@ const LoginScreen = () => {
         required
         email
         onInputChange={onInputChangeHandler}
+        
       />
       <Input
         id="password"

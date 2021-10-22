@@ -1,11 +1,11 @@
 import React from 'react'
 import { View,Text,StyleSheet,TouchableOpacity} from 'react-native'
 
-const ButtonLong = ({text,handleSelected,color,buttonVisible})=>{
+const ButtonSecondary = ({text,handleSelected,color})=>{
     
     return(
-        <TouchableOpacity style={[{backgroundColor:color},{ display: buttonVisible ? 'none' : 'flex'},styles.contendorBotonLargo]} onPress={handleSelected} > 
-        <Text style={styles.textBotonLargo}>{text}</Text>
+        <TouchableOpacity style={[{borderColor:color},styles.contendorBotonLargo]} onPress={handleSelected} > 
+        <Text style={[{color:color},styles.textBotonLargo]}>{text}</Text>
     </TouchableOpacity>
     )
 }
@@ -16,15 +16,16 @@ const styles= StyleSheet.create({
         marginHorizontal:"5%",
         marginVertical:5,
         height:50,
-        borderRadius:5
+        borderRadius:5,
+        backgroundColor:"#ffffff",
+        borderWidth: 1
     },
     textBotonLargo:{
         fontSize:16,
         textAlign:"center",
-        color:"#ffffff",
         textAlignVertical:"center",
         height:50,
     },
 })
 
-export default ButtonLong
+export default ButtonSecondary
