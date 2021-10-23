@@ -46,10 +46,10 @@ const LoginScreen = () => {
 
   return (
     <AuthScreenWrapper
-      title="Hola! Bienvanido"
+      title="Hola! Bienvenido"
       message="¿No tienes Cuenta?"
       buttonText="Ingresar"
-      buttonPath="Register"
+      buttonPath="Registrarse"
     >
              <StatusBar
       backgroundColor= "#000000"

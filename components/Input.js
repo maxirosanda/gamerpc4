@@ -62,11 +62,12 @@ const Input = props => {
         onBlur={handleBlur}
         placeholder={label}
       />
+       <View style={styles.error}>
       {!inputState.isValid && inputState.touched && (
-        <View>
+       
             <Text style={styles.errorText}>{props.errorText}</Text>
-        </View>
       )}
+      </View>
     </View>
   );
 };
@@ -74,6 +75,7 @@ const Input = props => {
 const styles = StyleSheet.create({
   formControl: {
     width: '100%',
+    height:80
   },
   input: {
     paddingHorizontal: 10,
@@ -81,11 +83,15 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
     borderWidth: 1,
     borderRadius:5,
-    marginVertical:25
+    marginVertical:5
     
   },
+  error:{
+    height:20,
+    marginBottom:10
+  },
   errorText: {
-    marginVertical: 5,
+  
     color: '#cc7755'
   }
 });

@@ -18,7 +18,7 @@ const Inicio = ({ navigation, route })=>{
       backgroundColor= {COLORS.primary}
       barStyle="light-content"
     />
-          <ButtonLong text={"Inicio Sesión"} handleSelected={handleSelectedLogin} color={COLORS.accent}></ButtonLong>
+          <ButtonLong text={"Iniciar Sesión"} handleSelected={handleSelectedLogin} color={COLORS.accent}></ButtonLong>
           <ButtonLong text={"Registrarme"} handleSelected={handleSelectedRegister} color={COLORS.accent}></ButtonLong>
   
     </View>
